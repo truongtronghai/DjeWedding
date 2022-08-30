@@ -1,0 +1,145 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{ blocks.header.title }} - Amazing Wedding Day </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="{% static 'card/styles.css' %}" />
+
+<style>
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {background-image: url("{{ blocks.header.image.url }}")}
+.bgimg2 {background-image: url("{{ blocks.middle_background.image.url }}")}
+</style>
+</head>
+<body>
+
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">{{ blocks.header.title }}</h1>
+    <h2>{{ blocks.header.short_text_1 }}</h2>
+    <h2><b>{{ blocks.header.short_text_2 }}</b></h2>
+  </div>
+</header>
+
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+    <a href="#home" style="width:25%" class="w3-bar-item w3-button">Đầu trang</a>
+    <a href="#us" style="width:25%" class="w3-bar-item w3-button">{{ blocks.header.title }}</a>
+    <a href="#wedding" style="width:25%" class="w3-bar-item w3-button">Chi tiết</a>
+    {% if blocks.confirmation.enabled is True %}
+    <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">Tham dự</a>
+    {% endif %}
+  </div>
+</div>
+<!-- modal message -->
+{% if messages %}
+ <div class="w3-modal" id="flashmessagemodal" style="display: block !important;">
+     <div class="w3-modal-content">
+         {% for msg in messages %}
+             {% if msg.level_tag == 'error' %}
+             <div class="w3-red w3-container">
+             {% elif msg.level_tag == 'success' %}
+             <div class="w3-green w3-container">
+             {% endif %}
+                <span class="w3-button w3-display-topright w3-opacity" onclick="document.getElementById('flashmessagemodal').style.display='none'">&times;</span>
+                 <p class="w3-center">
+                     {{ msg|safe }}
+                 </p>
+             </div>
+         {% endfor %}
+     </div>
+</div>
+{% endif %}
+
+<!-- About -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="us">
+  <div class="w3-content">
+    <h1 class="w3-center w3-text-grey"><b>{{ blocks.about.title }}</b></h1>
+    <img class="w3-round w3-grayscale-min" src="{{ blocks.about.image.url }}" style="width:100%;margin:32px 0">
+    <p><i>{{ blocks.about.description }}</i>
+    </p><br>
+    <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Chi Tiết</a></p>
+  </div>
+</div>
+
+<!-- Background photo -->
+<div class="w3-display-container bgimg2">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">{{ blocks.middle_background.title }}</h1><br>
+    <h2>{{ blocks.middle_background.short_text_1 }}</h2>
+  </div>
+</div>
+
+<!-- Wedding information -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="wedding">
+  <div class="w3-content">
+    <h1 class="w3-text-grey"><b>{{ blocks.information.title }}</b></h1>
+    <img class="w3-round-large w3-grayscale-min" src="{{ blocks.information.image.url }}" style="width:100%;margin:64px 0">
+    <div class="w3-row">
+      <div class="w3-half">
+        <h2>Thời gian</h2>
+        <p>{{ blocks.information.short_text_1 }}</p>
+        <p>{{ blocks.information.short_text_2 }}</p>
+      </div>
+      <div class="w3-half">
+        <h2>Địa điểm</h2>
+        <p>{{ blocks.information.short_text_3 }}</p>
+        <p>{{ blocks.information.short_text_4 }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% if blocks.confirmation.enabled is True %}
+<!-- RSVP section -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
+  <h1>{{ blocks.confirmation.title }}</h1>
+  <p class="w3-large">{{ blocks.confirmation.short_text_1 }}</p>
+  <p class="w3-xlarge">
+    <button onclick="document.getElementById('rsvp_modal').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">Xác nhận</button>
+  </p>
+</div>
+
+<!-- RSVP modal -->
+<div id="rsvp_modal" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+    <div class="w3-container w3-white w3-center">
+      <h1 class="w3-wide">{{ blocks.confirmation.short_text_2 }}</h1>
+      <p>{{ blocks.confirmation.short_text_3 }}</p>
+      <form action="/" method=POST id="frmConfirm">
+          {% csrf_token %}
+        <input class="w3-input w3-border" type="text" placeholder="Nhập tên của quý khách tại đây" id="name" name="name" required>
+        <input type="hidden" value="" id="confirm" name="confirmation" />
+      </form>
+      <p><i>{{ blocks.confirmation.short_text_4 }}</i></p>
+      <div class="w3-row">
+        <div class="w3-half">
+          <button onclick="submitConfirmation('rsvp_modal','yes');" type="button" class="w3-button w3-block w3-green">Tôi tham dự</button>
+        </div>
+        <div class="w3-half">
+          <button onclick="submitConfirmation('rsvp_modal','no');" type="button" class="w3-button w3-block w3-red">Tôi không dự được</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+<div class="w3-hide-small" style="margin-bottom:32px">&nbsp;</div>
+<script src="{% static 'card/main.js' %}"></script>
+</body>
+</html>

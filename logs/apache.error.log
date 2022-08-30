@@ -1,0 +1,148 @@
+[Sat Aug 06 15:23:45.631939 2022] [wsgi:error] [pid 5144:tid 1548] [client 127.0.0.1:2436] Invalid HTTP_HOST header: '127.0.0.3:9999'. You may need to add '127.0.0.3' to ALLOWED_HOSTS.\r
+[Sat Aug 06 15:23:45.837939 2022] [wsgi:error] [pid 5144:tid 1548] [client 127.0.0.1:2436] Bad Request: /\r
+[Sat Aug 06 15:23:45.995987 2022] [wsgi:error] [pid 5144:tid 1548] [client 127.0.0.1:2437] Invalid HTTP_HOST header: '127.0.0.3:9999'. You may need to add '127.0.0.3' to ALLOWED_HOSTS.\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:23:46.057940 2022] [wsgi:error] [pid 5144:tid 1548] [client 127.0.0.1:2437] Bad Request: /favicon.ico\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:24:08.448940 2022] [wsgi:error] [pid 5144:tid 1548] [client 127.0.0.1:2443] Invalid HTTP_HOST header: '127.0.0.3:9999'. You may need to add '127.0.0.3' to ALLOWED_HOSTS.\r
+[Sat Aug 06 15:24:08.501945 2022] [wsgi:error] [pid 5144:tid 1548] [client 127.0.0.1:2443] Bad Request: /\r
+[Sat Aug 06 15:25:41.276942 2022] [wsgi:error] [pid 5144:tid 1548] [client 127.0.0.1:2449] Invalid HTTP_HOST header: '127.0.0.3:9999'. You may need to add '127.0.0.3' to ALLOWED_HOSTS.\r
+[Sat Aug 06 15:25:41.311937 2022] [wsgi:error] [pid 5144:tid 1548] [client 127.0.0.1:2449] Bad Request: /\r
+[Sat Aug 06 15:25:41.394942 2022] [wsgi:error] [pid 5144:tid 1548] [client 127.0.0.1:2450] Invalid HTTP_HOST header: '127.0.0.3:9999'. You may need to add '127.0.0.3' to ALLOWED_HOSTS.\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:25:41.451942 2022] [wsgi:error] [pid 5144:tid 1548] [client 127.0.0.1:2450] Bad Request: /favicon.ico\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:26:12.697940 2022] [wsgi:error] [pid 5144:tid 1548] [client 127.0.0.1:2455] Invalid HTTP_HOST header: '127.0.0.3:9999'. You may need to add '127.0.0.3' to ALLOWED_HOSTS.\r
+[Sat Aug 06 15:26:12.730939 2022] [wsgi:error] [pid 5144:tid 1548] [client 127.0.0.1:2455] Bad Request: /\r
+[Sat Aug 06 15:26:12.813941 2022] [wsgi:error] [pid 5144:tid 1548] [client 127.0.0.1:2456] Invalid HTTP_HOST header: '127.0.0.3:9999'. You may need to add '127.0.0.3' to ALLOWED_HOSTS.\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:26:12.868948 2022] [wsgi:error] [pid 5144:tid 1548] [client 127.0.0.1:2456] Bad Request: /favicon.ico\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:26:16.126939 2022] [wsgi:error] [pid 5144:tid 1548] [client 127.0.0.1:2458] Invalid HTTP_HOST header: '127.0.0.3:9999'. You may need to add '127.0.0.3' to ALLOWED_HOSTS.\r
+[Sat Aug 06 15:26:16.165941 2022] [wsgi:error] [pid 5144:tid 1548] [client 127.0.0.1:2458] Bad Request: /\r
+[Sat Aug 06 15:28:32.870938 2022] [wsgi:error] [pid 5144:tid 1548] [client 127.0.0.1:2492] Invalid HTTP_HOST header: '127.0.0.3:9999'. You may need to add '127.0.0.3' to ALLOWED_HOSTS.\r
+[Sat Aug 06 15:28:32.915940 2022] [wsgi:error] [pid 5144:tid 1548] [client 127.0.0.1:2492] Bad Request: /\r
+[Sat Aug 06 15:28:40.026939 2022] [wsgi:error] [pid 5144:tid 1548] [client 127.0.0.1:2495] Invalid HTTP_HOST header: '127.0.0.3:9999'. You may need to add '127.0.0.3' to ALLOWED_HOSTS.\r
+[Sat Aug 06 15:28:40.063938 2022] [wsgi:error] [pid 5144:tid 1548] [client 127.0.0.1:2495] Bad Request: /\r
+[Sat Aug 06 15:28:59.635942 2022] [authz_core:error] [pid 12412:tid 1500] [client 127.0.0.1:2496] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:28:59.658942 2022] [authz_core:error] [pid 12412:tid 1484] [client 127.0.0.1:2497] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:28:59.661978 2022] [wsgi:error] [pid 12412:tid 1500] [client 127.0.0.1:2496] Not Found: /media/wedding_couple2.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:28:59.938942 2022] [wsgi:error] [pid 12412:tid 1484] [client 127.0.0.1:2497] Not Found: /media/wedding_location.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:28:59.964941 2022] [wsgi:error] [pid 12412:tid 1484] [client 127.0.0.1:2497] Not Found: /media/wedding_couple.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:28:59.968943 2022] [wsgi:error] [pid 12412:tid 1480] [client 127.0.0.1:2498] Not Found: /media/flowers.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:29:11.334944 2022] [wsgi:error] [pid 12412:tid 1484] [client 127.0.0.1:2502] Not Found: /media/flowers.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:29:11.340943 2022] [wsgi:error] [pid 12412:tid 1480] [client 127.0.0.1:2501] Not Found: /media/wedding_couple.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:30:43.605943 2022] [authz_core:error] [pid 12412:tid 1480] [client 127.0.0.1:2512] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:30:43.609942 2022] [authz_core:error] [pid 12412:tid 1484] [client 127.0.0.1:2513] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:30:43.637945 2022] [wsgi:error] [pid 12412:tid 1500] [client 127.0.0.1:2514] Not Found: /media/wedding_location.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:30:43.639941 2022] [wsgi:error] [pid 12412:tid 1484] [client 127.0.0.1:2513] Not Found: /media/wedding_couple2.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:30:44.232942 2022] [wsgi:error] [pid 12412:tid 1500] [client 127.0.0.1:2514] Not Found: /media/wedding_couple.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:30:44.235941 2022] [wsgi:error] [pid 12412:tid 1484] [client 127.0.0.1:2513] Not Found: /media/flowers.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:30:44.307942 2022] [wsgi:error] [pid 12412:tid 1500] [client 127.0.0.1:2514] Not Found: /favicon.ico\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:33:59.701942 2022] [authz_core:error] [pid 12412:tid 1500] [client 127.0.0.1:2552] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:33:59.723940 2022] [authz_core:error] [pid 12412:tid 1484] [client 127.0.0.1:2556] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:34:00.039941 2022] [wsgi:error] [pid 12412:tid 1476] [client 127.0.0.1:2557] Not Found: /media/wedding_couple2.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:34:00.055941 2022] [wsgi:error] [pid 12412:tid 1500] [client 127.0.0.1:2552] Not Found: /media/wedding_couple.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:34:00.076944 2022] [wsgi:error] [pid 12412:tid 1484] [client 127.0.0.1:2556] Not Found: /media/wedding_location.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:34:00.080941 2022] [wsgi:error] [pid 12412:tid 1480] [client 127.0.0.1:2558] Not Found: /media/flowers.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:34:00.116940 2022] [wsgi:error] [pid 12412:tid 1484] [client 127.0.0.1:2556] Not Found: /favicon.ico\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:34:52.385942 2022] [authz_core:error] [pid 12412:tid 1484] [client 127.0.0.1:2565] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/styles.css, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:34:52.411943 2022] [authz_core:error] [pid 12412:tid 1480] [client 127.0.0.1:2566] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/main.js, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:34:52.413943 2022] [wsgi:error] [pid 12412:tid 1484] [client 127.0.0.1:2565] Not Found: /media/wedding_couple2.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:34:52.427941 2022] [wsgi:error] [pid 12412:tid 1500] [client 127.0.0.1:2567] Not Found: /media/wedding_location.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:34:52.592943 2022] [wsgi:error] [pid 12412:tid 1500] [client 127.0.0.1:2567] Not Found: /media/wedding_couple.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:34:52.594950 2022] [wsgi:error] [pid 12412:tid 1480] [client 127.0.0.1:2566] Not Found: /media/flowers.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:34:52.834942 2022] [wsgi:error] [pid 12412:tid 1500] [client 127.0.0.1:2567] Not Found: /favicon.ico\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:34:56.727941 2022] [authz_core:error] [pid 12412:tid 1480] [client 127.0.0.1:2569] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/styles.css, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:34:56.736942 2022] [authz_core:error] [pid 12412:tid 1484] [client 127.0.0.1:2570] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/main.js, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:34:56.954941 2022] [wsgi:error] [pid 12412:tid 1476] [client 127.0.0.1:2572] Not Found: /media/wedding_couple2.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:34:56.956943 2022] [wsgi:error] [pid 12412:tid 1484] [client 127.0.0.1:2570] Not Found: /media/wedding_location.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:34:57.101961 2022] [wsgi:error] [pid 12412:tid 1484] [client 127.0.0.1:2570] Not Found: /media/wedding_couple.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:34:57.111943 2022] [wsgi:error] [pid 12412:tid 1476] [client 127.0.0.1:2572] Not Found: /media/flowers.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:34:57.174941 2022] [wsgi:error] [pid 12412:tid 1484] [client 127.0.0.1:2570] Not Found: /favicon.ico\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:35:53.671942 2022] [authz_core:error] [pid 12412:tid 1484] [client 127.0.0.1:2584] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/styles.css, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:35:53.674944 2022] [authz_core:error] [pid 12412:tid 1500] [client 127.0.0.1:2585] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/main.js, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:35:53.699940 2022] [wsgi:error] [pid 12412:tid 1480] [client 127.0.0.1:2587] Not Found: /media/wedding_couple2.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:35:53.704942 2022] [wsgi:error] [pid 12412:tid 1476] [client 127.0.0.1:2586] Not Found: /media/wedding_location.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:35:54.028943 2022] [wsgi:error] [pid 12412:tid 1476] [client 127.0.0.1:2586] Not Found: /media/wedding_couple.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:35:54.031943 2022] [wsgi:error] [pid 12412:tid 1480] [client 127.0.0.1:2587] Not Found: /media/flowers.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:35:54.085952 2022] [wsgi:error] [pid 12412:tid 1476] [client 127.0.0.1:2586] Not Found: /favicon.ico\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:36:24.254941 2022] [authz_core:error] [pid 12412:tid 1476] [client 127.0.0.1:2594] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/styles.css, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:36:24.270944 2022] [authz_core:error] [pid 12412:tid 1500] [client 127.0.0.1:2596] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/main.js, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:36:24.273942 2022] [wsgi:error] [pid 12412:tid 1476] [client 127.0.0.1:2594] Not Found: /media/wedding_couple2.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:36:24.287940 2022] [wsgi:error] [pid 12412:tid 1480] [client 127.0.0.1:2595] Not Found: /media/wedding_location.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:36:25.179944 2022] [wsgi:error] [pid 12412:tid 1480] [client 127.0.0.1:2595] Not Found: /media/wedding_couple.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:36:25.187941 2022] [wsgi:error] [pid 12412:tid 1500] [client 127.0.0.1:2596] Not Found: /media/flowers.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:36:25.190945 2022] [wsgi:error] [pid 12412:tid 1476] [client 127.0.0.1:2594] Not Found: /favicon.ico\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:46:03.020941 2022] [authz_core:error] [pid 12412:tid 1476] [client 127.0.0.1:2679] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/styles.css, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:46:03.029942 2022] [authz_core:error] [pid 12412:tid 1500] [client 127.0.0.1:2680] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/main.js, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:46:04.011942 2022] [wsgi:error] [pid 12412:tid 1480] [client 127.0.0.1:2681] Not Found: /media/wedding_couple.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:46:04.027943 2022] [wsgi:error] [pid 12412:tid 1500] [client 127.0.0.1:2680] Not Found: /media/flowers.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:46:04.034940 2022] [wsgi:error] [pid 12412:tid 1484] [client 127.0.0.1:2682] Not Found: /favicon.ico\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:46:04.036941 2022] [wsgi:error] [pid 12412:tid 1476] [client 127.0.0.1:2679] Not Found: /media/wedding_couple2.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:46:04.046942 2022] [wsgi:error] [pid 12412:tid 1472] [client 127.0.0.1:2686] Not Found: /media/wedding_location.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:46:42.344942 2022] [authz_core:error] [pid 12412:tid 1472] [client 127.0.0.1:2699] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/styles.css, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:46:42.352941 2022] [authz_core:error] [pid 12412:tid 1472] [client 127.0.0.1:2699] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/main.js, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:46:42.381943 2022] [wsgi:error] [pid 12412:tid 1484] [client 127.0.0.1:2701] Not Found: /media/wedding_location.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:46:42.386943 2022] [wsgi:error] [pid 12412:tid 1476] [client 127.0.0.1:2700] Not Found: /media/wedding_couple2.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:46:43.096941 2022] [wsgi:error] [pid 12412:tid 1472] [client 127.0.0.1:2699] Not Found: /favicon.ico\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:46:43.104946 2022] [wsgi:error] [pid 12412:tid 1476] [client 127.0.0.1:2700] Not Found: /media/flowers.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:46:43.113941 2022] [wsgi:error] [pid 12412:tid 1484] [client 127.0.0.1:2701] Not Found: /media/wedding_couple.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:46:58.659942 2022] [wsgi:error] [pid 12412:tid 1484] [client 127.0.0.1:2712] Not Found: /media/wedding_couple.jpg\r
+[Sat Aug 06 15:47:20.739466 2022] [wsgi:error] [pid 12412:tid 1484] [client 127.0.0.1:2721] Not Found: /media/wedding_couple.jpg\r
+[Sat Aug 06 15:47:20.818469 2022] [wsgi:error] [pid 12412:tid 1484] [client 127.0.0.1:2721] Not Found: /favicon.ico\r, referer: http://127.0.0.3:9999/media/wedding_couple.jpg
+[Sat Aug 06 15:47:55.475468 2022] [authz_core:error] [pid 12412:tid 1484] [client 127.0.0.1:2728] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/styles.css, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:47:55.479468 2022] [authz_core:error] [pid 12412:tid 1472] [client 127.0.0.1:2729] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/main.js, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:47:55.876466 2022] [wsgi:error] [pid 12412:tid 1476] [client 127.0.0.1:2730] Not Found: /media/flowers.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:47:55.881469 2022] [wsgi:error] [pid 12412:tid 1484] [client 127.0.0.1:2728] Not Found: /media/wedding_location.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:47:55.883467 2022] [wsgi:error] [pid 12412:tid 1500] [client 127.0.0.1:2731] Not Found: /media/wedding_couple2.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:47:55.886469 2022] [wsgi:error] [pid 12412:tid 1472] [client 127.0.0.1:2729] Not Found: /media/wedding_couple.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:47:56.140470 2022] [authz_core:error] [pid 12412:tid 1476] [client 127.0.0.1:2735] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/styles.css, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:47:56.151467 2022] [authz_core:error] [pid 12412:tid 1484] [client 127.0.0.1:2736] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/main.js, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:47:56.355473 2022] [wsgi:error] [pid 12412:tid 1500] [client 127.0.0.1:2738] Not Found: /media/wedding_couple.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:47:56.360469 2022] [wsgi:error] [pid 12412:tid 1484] [client 127.0.0.1:2736] Not Found: /media/wedding_couple2.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:47:56.365472 2022] [wsgi:error] [pid 12412:tid 1472] [client 127.0.0.1:2737] Not Found: /media/wedding_location.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:47:56.375471 2022] [wsgi:error] [pid 12412:tid 1476] [client 127.0.0.1:2735] Not Found: /media/flowers.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:47:56.551467 2022] [wsgi:error] [pid 12412:tid 1472] [client 127.0.0.1:2737] Not Found: /favicon.ico\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:47:58.567470 2022] [authz_core:error] [pid 12412:tid 1476] [client 127.0.0.1:2743] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/styles.css, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:47:58.571467 2022] [authz_core:error] [pid 12412:tid 1484] [client 127.0.0.1:2744] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/main.js, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:47:58.587469 2022] [wsgi:error] [pid 12412:tid 1500] [client 127.0.0.1:2745] Not Found: /media/wedding_couple2.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:47:58.603467 2022] [wsgi:error] [pid 12412:tid 1472] [client 127.0.0.1:2746] Not Found: /media/wedding_location.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:47:58.782467 2022] [wsgi:error] [pid 12412:tid 1472] [client 127.0.0.1:2746] Not Found: /media/wedding_couple.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:47:58.785468 2022] [wsgi:error] [pid 12412:tid 1500] [client 127.0.0.1:2745] Not Found: /media/flowers.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:47:59.222466 2022] [wsgi:error] [pid 12412:tid 1472] [client 127.0.0.1:2746] Not Found: /favicon.ico\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:48:56.096469 2022] [authz_core:error] [pid 12412:tid 1472] [client 127.0.0.1:2752] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/styles.css, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:48:56.109469 2022] [authz_core:error] [pid 12412:tid 1472] [client 127.0.0.1:2752] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/main.js, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:48:56.510469 2022] [wsgi:error] [pid 12412:tid 1484] [client 127.0.0.1:2754] Not Found: /media/wedding_couple2.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:48:56.513468 2022] [wsgi:error] [pid 12412:tid 1500] [client 127.0.0.1:2753] Not Found: /media/wedding_location.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:48:56.536471 2022] [wsgi:error] [pid 12412:tid 1484] [client 127.0.0.1:2754] Not Found: /media/wedding_couple.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:48:56.560467 2022] [wsgi:error] [pid 12412:tid 1472] [client 127.0.0.1:2752] Not Found: /media/flowers.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:48:56.593468 2022] [wsgi:error] [pid 12412:tid 1500] [client 127.0.0.1:2753] Not Found: /favicon.ico\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:48:58.340468 2022] [authz_core:error] [pid 12412:tid 1500] [client 127.0.0.1:2759] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/main.js, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:48:58.341471 2022] [authz_core:error] [pid 12412:tid 1472] [client 127.0.0.1:2758] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/styles.css, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:48:58.599465 2022] [wsgi:error] [pid 12412:tid 1500] [client 127.0.0.1:2759] Not Found: /media/wedding_location.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:48:58.607467 2022] [wsgi:error] [pid 12412:tid 1476] [client 127.0.0.1:2761] Not Found: /media/wedding_couple2.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:48:58.616467 2022] [wsgi:error] [pid 12412:tid 1472] [client 127.0.0.1:2758] Not Found: /media/flowers.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:48:58.619469 2022] [wsgi:error] [pid 12412:tid 1484] [client 127.0.0.1:2760] Not Found: /media/wedding_couple.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:48:58.664468 2022] [wsgi:error] [pid 12412:tid 1500] [client 127.0.0.1:2759] Not Found: /favicon.ico\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:49:24.844469 2022] [authz_core:error] [pid 12412:tid 1500] [client 127.0.0.1:2767] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/styles.css, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:49:24.849467 2022] [authz_core:error] [pid 12412:tid 1484] [client 127.0.0.1:2768] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/main.js, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:49:24.863469 2022] [wsgi:error] [pid 12412:tid 1472] [client 127.0.0.1:2769] Not Found: /media/wedding_couple2.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:49:24.879471 2022] [wsgi:error] [pid 12412:tid 1476] [client 127.0.0.1:2770] Not Found: /media/wedding_location.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:49:24.923471 2022] [wsgi:error] [pid 12412:tid 1476] [client 127.0.0.1:2770] Not Found: /media/wedding_couple.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:49:24.930467 2022] [wsgi:error] [pid 12412:tid 1472] [client 127.0.0.1:2769] Not Found: /media/flowers.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:49:29.131467 2022] [authz_core:error] [pid 12412:tid 1472] [client 127.0.0.1:2772] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/main.js, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:49:29.134469 2022] [authz_core:error] [pid 12412:tid 1500] [client 127.0.0.1:2771] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/styles.css, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:49:29.341468 2022] [wsgi:error] [pid 12412:tid 1484] [client 127.0.0.1:2773] Not Found: /media/wedding_location.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:49:29.349468 2022] [wsgi:error] [pid 12412:tid 1472] [client 127.0.0.1:2772] Not Found: /media/wedding_couple2.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:49:29.363464 2022] [wsgi:error] [pid 12412:tid 1476] [client 127.0.0.1:2774] Not Found: /media/wedding_couple.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:49:29.366466 2022] [wsgi:error] [pid 12412:tid 1500] [client 127.0.0.1:2771] Not Found: /media/flowers.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:49:29.395469 2022] [wsgi:error] [pid 12412:tid 1484] [client 127.0.0.1:2773] Not Found: /favicon.ico\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:49:31.025467 2022] [authz_core:error] [pid 12412:tid 1500] [client 127.0.0.1:2780] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/styles.css, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:49:31.043466 2022] [authz_core:error] [pid 12412:tid 1484] [client 127.0.0.1:2781] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/main.js, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:49:31.048468 2022] [wsgi:error] [pid 12412:tid 1500] [client 127.0.0.1:2780] Not Found: /media/wedding_location.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:49:31.226468 2022] [wsgi:error] [pid 12412:tid 1484] [client 127.0.0.1:2781] Not Found: /media/wedding_couple2.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:49:31.262469 2022] [wsgi:error] [pid 12412:tid 1484] [client 127.0.0.1:2781] Not Found: /media/wedding_couple.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:49:31.267470 2022] [wsgi:error] [pid 12412:tid 1472] [client 127.0.0.1:2782] Not Found: /media/flowers.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:49:31.282464 2022] [wsgi:error] [pid 12412:tid 1484] [client 127.0.0.1:2781] Not Found: /favicon.ico\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:49:32.636474 2022] [authz_core:error] [pid 12412:tid 1500] [client 127.0.0.1:2786] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/styles.css, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:49:32.649467 2022] [authz_core:error] [pid 12412:tid 1476] [client 127.0.0.1:2789] AH01630: client denied by server configuration: D:/Projects/python/django/ewedding/ewedding/static/card/main.js, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:49:32.677470 2022] [wsgi:error] [pid 12412:tid 1472] [client 127.0.0.1:2788] Not Found: /media/wedding_location.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:49:32.681467 2022] [wsgi:error] [pid 12412:tid 1484] [client 127.0.0.1:2787] Not Found: /media/wedding_couple2.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:49:32.838468 2022] [wsgi:error] [pid 12412:tid 1472] [client 127.0.0.1:2788] Not Found: /favicon.ico\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:49:32.877468 2022] [wsgi:error] [pid 12412:tid 1484] [client 127.0.0.1:2787] Not Found: /media/flowers.jpg\r, referer: http://127.0.0.3:9999/
+[Sat Aug 06 15:49:32.879469 2022] [wsgi:error] [pid 12412:tid 1472] [client 127.0.0.1:2788] Not Found: /media/wedding_couple.jpg\r, referer: http://127.0.0.3:9999/
